@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Fullstack developer | UX designer | Hedera enthusiast" />
+        <meta name="keywords" content="developer, portfolio, hedera, hbar, vue, nuxt, blockchain, web3" />
+        <meta name="author" content="Anneloes Louwe" />
+        <meta name="robots" content="index,follow" />
+        <link rel="canonical" href="https://codesparks.nl/" />
+
+        <link rel="icon" href="/favicon.png" sizes="any" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <title>Anneloes Louwe | Fullstack developer</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            // Tailwind config (extend as needed)
+            window.tailwind = tailwind;
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        container: {
+                            center: true,
+                            padding: "1rem",
+                            screens: {
+                                sm: "640px",
+                                md: "768px",
+                                lg: "1024px",
+                                xl: "1170px",
+                            },
+                        },
+                        fontFamily: {
+                            sans: [
+                                "-apple-system",
+                                "BlinkMacSystemFont",
+                                "Segoe UI",
+                                "Roboto",
+                                "Helvetica",
+                                "Arial",
+                                "Apple Color Emoji",
+                                "Segoe UI Emoji",
+                                "Segoe UI Symbol",
+                            ],
+                        },
+                    },
+                },
+            };
+        </script>
+
+        <!-- include css file -->
+        <link rel="stylesheet" href="/style.css" />
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Anneloes Louwe",
+                "url": "https://codesparks.nl/",
+                "description": "Fullstack developer | UX designer | Hedera enthusiast",
+                "inLanguage": "en"
+            }
+        </script>
+    </head>
+
+    <body class="min-h-screen bg-white text-slate-900 antialiased">
+        <div class="flex w-full min-h-screen flex-col page">
+            <header class="header">
+                <div class="container mx-auto flex flex-col gap-4 py-8">
+                    <div class="grid md:grid-cols-12 gap-5">
+                        <div class="md:col-span-3 flex flex-col xxxjustify-center">
+                            <div
+                                class="w-full rounded-full aspect-square bg-slate-900 overflow-hidden border-4 border-black"
+                            >
+                                <img
+                                    src="/loes2.0-300.png"
+                                    alt="Anneloes Louwe"
+                                    class="w-full object-cover aspect-square"
+                                />
+                            </div>
+                        </div>
+                        <div class="md:col-span-9 flex flex-col gap-2">
+                            <h1 class="text-6xl font-bold">Anneloes Louwe</h1>
+                            <div class="flex gap-5 mb-8">
+                                <a
+                                    href="https://www.linkedin.com/in/anneloes-louwe/"
+                                    target="_blank"
+                                    class="flex gap-2 items-center"
+                                    ><span class="icon icon-linkedin"></span> LinkedIn</a
+                                >
+
+                                <a href="https://github.com/louweal" target="_blank" class="flex gap-2 items-center">
+                                    <span class="icon icon-github-large"></span>
+                                    Github
+                                </a>
+
+                                <a href="https://devpost.com/louweal" target="_blank" class="flex gap-2 items-center"
+                                    ><span class="icon icon-devpost"></span> Devpost</a
+                                >
+                            </div>
+
+                            <div class="flex flex-col gap-2">
+                                <p class="text-xl mb-4">Fullstack developer | UX designer | Hedera enthusiast</p>
+                                <!--
+                                <p>
+                                    <strong>Education</strong>
+                                    <span class="education"
+                                        >MSc. Computer Science/Data Science (Leiden University)</span
+                                    >
+                                </p> -->
+
+                                <p>
+                                    <strong>Skills</strong>
+                                    <span class="skill">HTML</span>
+                                    <span class="skill">SCSS</span>
+                                    <span class="skill">Tailwind</span>
+                                    <span class="skill">Bootstrap</span>
+                                    <span class="skill">JavaScript</span>
+                                    <span class="skill">TypeScript</span>
+                                    <span class="skill">Vue</span>
+                                    <span class="skill">Nuxt</span>
+                                    <span class="skill">React</span>
+                                    <span class="skill">Next</span>
+                                    <span class="skill">Node</span>
+                                    <span class="skill">Prisma</span>
+                                    <span class="skill">MySQL</span>
+                                    <span class="skill">Solidity</span>
+                                    <span class="skill">NPM</span>
+                                    <span class="skill">Git</span>
+                                    <span class="skill">WordPress</span>
+                                    <span class="skill">PHP</span>
+                                    <span class="skill">Python</span>
+                                    <span class="skill">C++</span>
+                                    <span class="skill">Figma</span>
+                                    <span class="skill">Blender</span>
+                                    <span class="skill">Illustrator</span>
+                                </p>
+                                <p>
+                                    <strong>Interests</strong>
+                                    <span class="skill">Web3</span>
+                                    <span class="skill">Frontend Development</span>
+                                    <span class="skill">UX</span>
+                                    <span class="skill">Machine Learning</span>
+                                    <span class="skill">Data Science</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main id="main" class="flex w-full grow flex-col gap-12 py-10">
+                <section id="projects" class="">
+                    <div class="container mx-auto flex flex-col gap-5">
+                        <h2 class="text-3xl font-bold">Featured Projects</h2>
+
+                        <div class="grid md:grid-cols-3 gap-5">
+                            <article class="project-card">
+                                <div class="project-card__body">
+                                    <h3 class="project-card__title">HashFast</h3>
+
+                                    <p class="">
+                                        <span class="skill">Vue</span>
+                                        <span class="skill">Nuxt</span>
+                                        <span class="skill">TypeScript</span>
+                                        <span class="skill">Hedera SDK</span>
+                                        <span class="skill">Figma</span>
+                                    </p>
+
+                                    <p>
+                                        HashFast is an intuitive user interface for Hedera payment links, simplifying
+                                        on‑chain payments for businesses and consumers. It removes the complexity and
+                                        risks of sending funds to the wrong address, fostering broader crypto adoption.
+                                    </p>
+                                </div>
+
+                                <div class="project-card__footer">
+                                    <a href="https://github.com/louweal/hashfast" class="flex gap-1 items-center"
+                                        ><span class="icon icon-github"></span> Github</a
+                                    >
+
+                                    <a href="https://hashfast.app" class="flex gap-1 items-center"
+                                        ><span class="icon icon-globe"></span> Website</a
+                                    >
+                                </div>
+                            </article>
+
+                            <article class="project-card">
+                                <div class="project-card__body">
+                                    <h3 class="project-card__title">HashPress</h3>
+
+                                    <p class="">
+                                        <span class="skill">PHP</span>
+                                        <span class="skill">JavaScript</span>
+                                        <span class="skill">Hedera SDK</span>
+                                    </p>
+
+                                    <p>
+                                        HashPress brings Web3 technologies to WordPress and WooCommerce, crafting a
+                                        future where on-chain transactions, NFTs, and smart contracts are seamlessly
+                                        integrated into any website.
+                                    </p>
+                                </div>
+
+                                <div class="project-card__footer">
+                                    <a href="https://github.com/louweal/hashfast" class="flex gap-1 items-center"
+                                        ><span class="icon icon-github"></span> Github</a
+                                    >
+
+                                    <a href="https://hashfast.app" class="flex gap-1 items-center"
+                                        ><span class="icon icon-globe"></span> Website</a
+                                    >
+                                </div>
+                            </article>
+
+                            <article class="project-card">
+                                <div class="project-card__body">
+                                    <h3 class="project-card__title">Heather</h3>
+
+                                    <p class="">
+                                        <span class="skill">Vue</span>
+                                        <span class="skill">Nuxt</span>
+                                        <span class="skill">Hedera SDK</span>
+                                        <span class="skill">Solidity</span>
+                                    </p>
+
+                                    <p>
+                                        Heather is the first fully decentralized peer-to-peer sharing platform for
+                                        sharing items within local communities.
+                                    </p>
+                                </div>
+
+                                <div class="project-card__footer">
+                                    <a href="https://github.com/louweal/heather" class="flex gap-1 items-center"
+                                        ><span class="icon icon-github"></span> Github</a
+                                    >
+
+                                    <a href="https://heather.codesparks.nl/" class="flex gap-1 items-center"
+                                        ><span class="icon icon-globe"></span> Website</a
+                                    >
+                                </div>
+                            </article>
+
+                            <article class="project-card">
+                                <div class="project-card__body">
+                                    <h3 class="project-card__title">Helix</h3>
+                                    <p class="">
+                                        <span class="skill">Hedera SDK</span>
+                                        <span class="skill">Solidity</span>
+                                        <span class="skill">Vue</span>
+                                        <span class="skill">Nuxt</span>
+                                    </p>
+
+                                    <p>
+                                        Helix motivates people to buy sustainable products and to use their purchases
+                                        longer. Use Helix to attach environmental deposits to any type of product or
+                                        service, from clothing to furniture to boat tours.
+                                    </p>
+                                </div>
+
+                                <div class="project-card__footer">
+                                    <a href="https://github.com/louweal/helix" class="flex gap-1 items-center"
+                                        ><span class="icon icon-github"></span> Github</a
+                                    >
+
+                                    <a href="https://helix.codesparks.nl/" class="flex gap-1 items-center"
+                                        ><span class="icon icon-globe"></span> Website</a
+                                    >
+                                </div>
+                            </article>
+
+                            <article class="project-card">
+                                <div class="project-card__body">
+                                    <h3 class="project-card__title">The Hederian Mint</h3>
+                                    <p class="">
+                                        <span class="skill">Vue</span>
+                                        <span class="skill">Nuxt</span>
+                                        <span class="skill">Figma</span>
+                                        <span class="skill">Blender</span>
+                                    </p>
+
+                                    <p>
+                                        Discover the very first set of exclusive high-quality HBAR coins ever minted on
+                                        the Hedera network. Collectable bullion coins for Hederians and Hbarbarians.
+                                    </p>
+                                </div>
+
+                                <div class="project-card__footer">
+                                    <a href="https://github.com/louweal/thehederianmint" class="flex gap-1 items-center"
+                                        ><span class="icon icon-github"></span> Github</a
+                                    >
+
+                                    <a href="https://www.thehederianmint.com/" class="flex gap-1 items-center"
+                                        ><span class="icon icon-globe"></span> Website</a
+                                    >
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer
+                class="border-t border-slate-200/60 bg-white/70 py-6 text-sm dark:border-slate-800 dark:bg-slate-900/70"
+            >
+                <div class="container mx-auto flex flex-col items-center justify-between gap-2 md:flex-row">
+                    <p>© <span id="year"></span> Anneloes Louwe</p>
+                </div>
+            </footer>
+        </div>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
